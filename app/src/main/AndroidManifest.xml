@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DinasPariwisata">
         <activity
+            android:name=".HomeMasuk"
+            android:exported="false" />
+        <activity
             android:name=".LupaPasswordPage"
             android:exported="false" />
         <activity
