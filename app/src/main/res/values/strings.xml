@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">DinasPariwisata</string>
+    
+    <string-array name="jeniskesenian">
+        <item>Jaranan</item>
+        <item>Banjari</item>
+        <item>Bantengan</item>
+        <item>Campursari</item>
+        <item>Elektone</item>
+        <item>Hadrah</item>
+        <item>Keroncong</item>
+        <item>Kesenian Musik</item>
+        <item>Ludruk</item>
+        <item>Orkes Melayu dan Dangdut</item>
+        <item>Qasidah</item>
+        <item>Rebana</item>
+        <item>Sanggar Tari</item>
+        <item>Wayang Kulit</item>
+        <item>Reog</item>
+        <item>Sholawat</item>
+        <item>Galak Ganjur</item>
+        <item>Orkes Melayu</item>
+        <item>Pencak Silat</item>
+        <item>Waranggono</item>
+        <item>Band</item>
+        <item>Mocopat</item>
+        <item>Drumband</item>
+    </string-array>
+</resources>
