@@ -2,7 +2,9 @@ package com.example.dinaspariwisata;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Adapter;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
@@ -18,5 +20,8 @@ public class RegistryActivity extends AppCompatActivity {
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.jeniskesenian, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(adapter);
+    }
+    public void NextSlide (View view){
+        startActivity(new Intent(RegistryActivity.this,HomeMasuk.class));
     }
 }
